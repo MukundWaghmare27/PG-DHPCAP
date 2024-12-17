@@ -1,0 +1,14 @@
+step1: compiled the code with flag -g for debugging
+	after running the code desired output is incorrect 
+	desired output: 1 2 3 4 5
+	incorrect output: 1 2 3 4 5 0
+step2: debug using gdb
+	made breakpoing at for loop 
+	run the program
+	till breakpoint it runs
+	by using next cmd and print i cmd checked the all iterations
+	iteration only should go till 4 (0-4) but i value going till 5
+step3: corrected the for loop
+	for(int i=0; i<5; i++)
+	
+Debugging Completed

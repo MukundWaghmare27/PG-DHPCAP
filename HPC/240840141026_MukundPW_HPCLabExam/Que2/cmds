@@ -1,0 +1,4 @@
+command used to submit job
+
+sbatch JobA_b.sh
+

@@ -1,0 +1,5 @@
+Break down main into smaller functions and profile again to identify hotspots.
+Optimize loops (unroll, reduce iterations, move invariants) 
+parallelize with OpenMP or CUDA
+Minimize I/O bottlenecks with buffering and reduce dynamic memory allocations.
+
