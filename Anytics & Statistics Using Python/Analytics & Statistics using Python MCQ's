@@ -1,0 +1,1300 @@
+S01: Introduction - MCQ
+By Pramod Sharma : pramod.sharma@prasami.com
+
+Q. No. 1:
+Which of the following is a valid way to declare a variable in Python? Answer Choices A. var = 10 B. 10 = var C. variable := 10 D. declare var 10
+
+Correct Answer: A - var = 10 Difficulty Level: Easy
+
+Q. No. 2:
+What is the correct syntax for printing a message in Python 3? Answer Choices A. print "Hello, World!" B. echo("Hello, World!") C. print("Hello, World!") D. printf("Hello, World!")
+
+Correct Answer: C - print("Hello, World!") Difficulty Level: Easy
+
+Q. No. 3:
+Which data type is used to represent textual data in Python? Answer Choices A. int B. str C. float D. bool
+
+Correct Answer: B - str Difficulty Level: Easy
+
+Q. No. 4:
+Which of the following is not a valid Python operator? Answer Choices A. + B. ** C. // D. ?:
+
+Correct Answer: D - ?: Difficulty Level: Medium
+
+. No. 5: What is the output of the following code?
+[ ] x = 5
+     if x < 2:
+         print("Greater")
+
+Answer Choices A. Greater B. Error C. None D. Nothing
+
+Correct Answer: A - Greater Difficulty Level: Easy
+
+Q. No. 6: What is the result of the expression 5 // 2? Answer Choices A. 2.5 B. 2 C. 3 D. Error
+
+Correct Answer: B - 2 Difficulty Level: Easy
+
+Q. No. 7: Which of the following is an example of a valid Python if-else statement? Answer Choices A. if (x > y): print(x) else: print(y) B. if x > y print x else print y C. print(x) if x > y else print(y) D. if x > y then: print(x) else: print(y)
+
+Correct Answer: C - print(x) if x > y else print(y) Difficulty Level: Medium
+x = 1
+y = 2
+if (x > y): print(x) else: print(y)
+
+Q. No. 8: What is the output of the following code?
+
+for i in range(3):
+    print(i)
+Answer Choices A. 0 1 2 B. 1 2 3 C. 1 2 3 4 D. 0 1 2 3
+
+Correct Answer: A - 0 1 2 Difficulty Level: Easy
+
+Q. No. 9: Which statement correctly implements a loop that runs until x becomes 0? Answer Choices A. while x = 0: B. while x != 0: C. while x == 0: D. while x is not 0:
+
+Correct Answer: B - while x != 0: Difficulty Level: Medium
+
+Q. No. 10: What is the use of the break statement in Python loops? Answer Choices A. It terminates the loop entirely. B. It skips the current iteration. C. It moves the loop counter back. D. It causes an error in the program.
+
+x = 10
+while x != 0:
+    print (x)
+    x = x-1
+    
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+Correct Answer: A - It terminates the loop entirely. Difficulty Level: Easy
+
+///////////////////////////////////////////////////////////////////////////////////
+
+S03: List, Tuple and Set
+By Pramod Sharma : pramod.sharma@prasami.com
+
+Q. No. 1: How do you define an empty list in Python? Answer Choices A. [] B. {} C. () D. set()
+
+Correct Answer: A - [] Difficulty Level: Easy Topic: Defining Lists
+
+Q. No. 2: How can you retrieve the third element from a list my_list = [10, 20, 30, 40, 50]? Answer Choices A. my_list[3] B. my_list(2) C. my_list[2] D. my_list{2}
+
+Correct Answer: C - my_list[2] Difficulty Level: Easy Topic: Accessing List
+
+Q. No. 3: Which method is used to add an element at the end of a list? Answer Choices A. append() B. insert() C. add() D. extend()
+
+Correct Answer: A - append() Difficulty Level: Easy Topic: Adding Elements to Lists
+
+Q. No. 4: What will be the result of the following code?
+
+
+[ ]
+my_list = [1, 2, 3, 4, 5]
+my_list.pop(3)
+print(my_list)
+Answer Choices A. [1, 2, 3, 5] B. [1, 2, 4, 5] C. [1, 2, 3, 4, 5] D. Error
+
+Correct Answer: A - [1, 2, 3, 5] Difficulty Level: Medium Topic: Deleting List Elements
+
+Q. No. 5: Which operator is used to concatenate two lists? Answer Choices A. + B. * C. & D. -
+
+Correct Answer: A - + Difficulty Level: Easy Topic: Using List Operators
+
+Q. No. 6: What is the correct way to define a tuple with a single element? Answer Choices A. (1,) B. (1) C. [1] D. tuple(1)
+
+
+[ ]
+a = (1)
+type(a)
+
+Correct Answer: A - (1,) Difficulty Level: Medium Topic: Introducing Tuples
+
+Q. No. 7: Which of the following is true about tuples in Python? Answer Choices A. Tuples are mutable. B. Tuples allow duplicate elements. C. Tuples do not allow duplicate elements. D. Tuples are unordered.
+
+Correct Answer: B - Tuples allow duplicate elements. Difficulty Level: Easy Topic: Working with Tuples
+
+Q. No. 8: Which method is used to search for an element in a list? Answer Choices A. find() B. search() C. index() D. locate()
+
+Correct Answer: C - index() Difficulty Level: Medium Topic: Searching Lists
+
+Q. No. 9: What is the result of the following code?
+
+
+[ ]
+my_set = {1, 2, 3}
+my_set.add(4)
+print(my_set)
+Answer Choices A. {1, 2, 3} B. {1, 2, 3, 4} C. Error D. [1, 2, 3, 4]
+
+Correct Answer: B - {1, 2, 3, 4} Difficulty Level: Easy Topic: Working with Sets
+
+Q. No. 10: How do you split a string s = "hello,world" by a comma in Python? Answer Choices A. s.split(",") B. split(s, ",") C. s.cut(",") D. s.splitBy(",")
+
+Correct Answer: A - s.split(",") Difficulty Level: Easy Topic: Joining Lists and Splitting Strings
+
+
+//////////////////////////////////////////////////////////////////////////////////
+
+S04: Dictionaries: MCQ
+By Pramod Sharma : pramod.sharma@prasami.com
+
+Q. No. 1: Which of the following correctly defines a dictionary in Python? Answer Choices A. {1: "apple", 2: "banana"} B. [1, "apple", 2, "banana"] C. {"apple", "banana"} D. (1: "apple", 2: "banana")
+
+Correct Answer: A - {1: "apple", 2: "banana"} Difficulty Level: Easy Topic: Defining Dictionaries
+
+Q. No. 2: How do you retrieve the value associated with the key "age" in the dictionary person = {"name": "John", "age": 25}? Answer Choices A. person.get("age") B. person["age"] C. person.age D. Both A and B
+
+Correct Answer: D - Both A and B Difficulty Level: Medium Topic: Accessing Dictionary Items
+
+Q. No. 3: Which method is used to update an existing key-value pair in a dictionary? Answer Choices A. update() B. modify() C. change() D. replace()
+
+Correct Answer: A - update() Difficulty Level: Easy Topic: Modifying Dictionaries
+
+Q. No. 4: What happens if you attempt to retrieve a value using a key that doesn't exist in the dictionary? Answer Choices A. KeyError B. None C. 0 D. Error
+
+Correct Answer: A - KeyError Difficulty Level: Medium Topic: Accessing Dictionary Items
+
+Q. No. 5: What is the output of the following code?
+
+
+[ ]
+d = {"a": 1, "b": 2}
+d["c"] = 3
+print(d)
+Answer Choices A. {"a": 1, "b": 2} B. {"a": 1, "b": 2, "c": 3} C. {1: "a", 2: "b", 3: "c"} D. Error
+
+Correct Answer: B - {"a": 1, "b": 2, "c": 3} Difficulty Level: Easy Topic: Modifying Dictionaries
+
+Q. No. 6: How do you delete an item with key "age" from a dictionary person? Answer Choices A. del person["age"] B. person.pop("age") C. remove(person["age"]) D. Both A and B
+
+Correct Answer: D - Both A and B Difficulty Level: Medium Topic: Deleting Items from Dictionaries
+
+Q. No. 7: What is the result of len({"name": "Alice", "age": 30})? Answer Choices A. 2 B. 30 C. 3 D. Error
+
+Correct Answer: A - 2 Difficulty Level: Easy Topic: Introducing Dictionaries
+
+Q. No. 8: Which of the following can be a dictionary key? Answer Choices A. A list B. A tuple C. A dictionary D. A set
+
+Correct Answer: B - A tuple Difficulty Level: Medium Topic: Defining Dictionaries
+
+Q. No. 9: What does the clear() method do in a dictionary? Answer Choices A. Deletes the dictionary B. Deletes all keys in the dictionary C. Removes all items from the dictionary D. Resets all values to None
+
+Correct Answer: C - Removes all items from the dictionary Difficulty Level: Easy Topic: Modifying Dictionaries
+
+Q. No. 10: Which of the following methods will return a list of all the keys in a dictionary? Answer Choices A. keys() B. values() C. items() D. getkeys()
+
+Correct Answer: A - keys() Difficulty Level: Easy Topic: Introducing Dictionaries
+
+Q. No. 11: What will be the result of the following code?
+
+d1 = {"a": 1, "b": 2} d2 = {"b": 3, "c": 4} d1.update(d2) print(d1) Answer Choices A. {"a": 1, "b": 3, "c": 4} B. {"a": 1, "b": 2, "c": 4} C. {"b": 3, "c": 4} D. {"a": 1, "b": 2, "b": 3, "c": 4}
+Correct Answer: A - {"a": 1, "b": 3, "c": 4} Difficulty Level: Hard Topic: Modifying Dictionaries
+
+Q. No. 12: Which of the following statements is true regarding dictionary views in Python 3? Answer Choices A. dict.keys() returns a list of keys. B. dict.values() returns a list of values. C. Dictionary views reflect changes made to the dictionary. D. dict.items() returns a list of key-value pairs.
+
+Correct Answer: C - Dictionary views reflect changes made to the dictionary. Difficulty Level: Hard Topic: Dictionary Views
+
+Q. No. 13: Given the following code, what will d1["c"] return?
+
+d1 = {"a": 1, "b": 2} d2 = d1.copy() d2["c"] = 3 Answer Choices A. Key gets added to both 'd2' B. None C. Key gets added to both 'd1' and 'd2' D. Error
+Correct Answer: A. Key gets added to both 'd2' Difficulty Level: Hard Topic: Copying and Modifying Dictionaries
+
+Q. No. 14: What will be the result of the following code?
+
+d = {1: "one", 2: "two", 3: "three"} for k, v in d.items(): if k % 2 == 0: del d[k] Answer Choices A. {1: "one", 3: "three"} B. {2: "two"} C. RuntimeError D. {1: "one", 2: "two", 3: "three"}
+Correct Answer: C - RuntimeError Difficulty Level: Hard Topic: Deleting Items in Loop
+
+Q. No. 15: Which of the following is not a valid way to create a dictionary? Answer Choices A. d = dict([("a", 1), ("b", 2)]) B. d = {"a": 1, "b": 2} C. d = dict(a=1, b=2) D. d = {["a"]: 1, "b": 2}
+
+Correct Answer: D - d = {["a"]: 1, "b": 2} Difficulty Level: Hard Topic: Defining Dictionaries
+
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+
+05a: Function and Methods - MCQ
+Function and Methods
+Defining a function
+Calling a function
+Types of functions
+Function Arguments
+Anonymous functions(Lambda function, Map function)
+Global and local variables
+Using Optional and Named Arguments
+Using type, str, dir, and Other Built-In Functions
+By Pramod Sharma : pramod.sharma@prasami.com
+
+Q. No. 1: Which of the following is the correct syntax for defining a function in Python? Answer Choices: A. def function_name: B. function function_name(): C. def function_name(): D. define function_name():
+
+Correct Answer: C - def function_name(): Difficulty Level: Easy Topic: Defining a Function
+
+Q. No. 2: What is the output of the following code?
+
+
+[ ]
+def greet():
+    return "Hello"
+print(greet())
+Answer Choices: A. "greet" B. "Hello" C. None D. Error
+
+Correct Answer: B - "Hello" Difficulty Level: Easy Topic: Calling a Function
+
+Q. No. 3: Which of the following is a built-in function in Python? Answer Choices: A. str() B. dir() C. type() D. All of the above
+
+Correct Answer: D - All of the above Difficulty Level: Easy Topic: Built-In Functions
+
+Q. No. 4: Which of the following correctly defines a lambda function? Answer Choices: A. lambda x: x + 2 B. def lambda x: x + 2 C. lambda x = x + 2 D. anonymous x: x + 2
+
+Correct Answer: A - lambda x: x + 2 Difficulty Level: Easy Topic: Anonymous Functions
+
+Q. No. 5: What will the following code output?
+
+
+[ ]
+x = 10
+def test():
+    global x
+    x = 5
+test()
+print(x)
+Answer Choices: A. 10 B. 5 C. None D. Error
+
+Correct Answer: B - 5 Difficulty Level: Easy Topic: Global and Local Variables
+
+Q. No. 6: Which of the following is true about default arguments in Python functions? Answer Choices: A. Default arguments must be placed before non-default arguments. B. Default arguments can be placed in any order. C. Default arguments must be placed after non-default arguments. D. Default arguments are not allowed in Python.
+
+Correct Answer: C - Default arguments must be placed after non-default arguments. Difficulty Level: Medium Topic: Function Arguments
+
+Q. No. 7: What is the output of the following code?
+
+
+[ ]
+def add(a, b=5):
+    return a + b
+print(add(10))
+Answer Choices: A. 10 B. 15 C. 5 D. Error Correct Answer: B - 15 Difficulty Level: Medium Topic: Using Optional and Named Arguments
+
+Q. No. 8: What will be the output of the following code?
+
+
+[ ]
+def func(x, y=10):
+    return x * y
+print(func(2, 3))
+print(func(2))
+Answer Choices: A. 6 and 20 B. 6 and 10 C. Error D. 6 and 30
+
+Correct Answer: A - 6 and 20 Difficulty Level: Medium Topic: Function Arguments
+
+Q. No. 9: Which of the following statements is correct regarding the map() function in Python? Answer Choices: A. map() applies a function to all items in an iterable. B. map() is used only for filtering elements. C. map() returns a list directly in Python 3. D. map() modifies the input iterable in place.
+
+Correct Answer: A - map() applies a function to all items in an iterable. Difficulty Level: Medium Topic: Anonymous Functions (Map Function)
+
+Q. No. 10: What does the following code output?
+
+
+[ ]
+def outer():
+    x = 10
+    def inner():
+        x = 20
+    inner()
+    return x
+print(outer())
+Answer Choices: A. 10 B. 20 C. None D. Error
+
+Correct Answer: A - 10 Difficulty Level: Medium Topic: Local Variables
+
+Additiona Explanation
+
+[ ]
+def outer():
+    x = 10
+    def inner():
+        nonlocal x
+        x = 20
+        print("Replying from Inner x:", x)  # This will print 20
+    return inner  # Return the inner function
+
+# Call outer to get access to inner
+inner_func = outer()
+print (outer)
+print (outer())
+inner_func()  # Now call inner from main
+Q. No. 11: Which of the following is true regarding anonymous functions (lambda) in Python? Answer Choices: A. Lambda functions can only have one expression. B. Lambda functions can have multiple statements. C. Lambda functions must always have a return statement. D. Lambda functions cannot accept multiple arguments.
+
+Correct Answer: A - Lambda functions can only have one expression. Difficulty Level: Hard Topic: Anonymous Functions (Lambda)
+
+Q. No. 12: What will the following code output?
+
+
+[ ]
+x = 50
+def func():
+    global x
+    x = 25
+    def inner():
+        x = 10
+    inner()
+func()
+print(x)
+Answer Choices: A. 50 B. 25 C. 10 D. Error
+
+Correct Answer: B - 25 Difficulty Level: Hard Topic: Global and Local Variables
+
+Q. No. 13: What will be the output of the following code?
+
+
+[ ]
+def func(a, *args, **kwargs):
+    print(a, args, kwargs)
+func(1, 2, 3, x=10, y=20)
+Answer Choices: A. 1 (2, 3) {'x': 10, 'y': 20} B. 1 (2) {'x': 10, 'y': 20} C. 1 [2, 3] {} D. Error
+
+Correct Answer: A - 1 (2, 3) {'x': 10, 'y': 20} Difficulty Level: Hard Topic: Function Arguments
+
+Q. No. 14: What will the following code output?
+
+
+[ ]
+def multiply(a, b):
+    return a * b
+x = map(multiply, [1, 2, 3], [4, 5])
+print(list(x))
+[4, 10]
+Answer Choices: A. [4, 10] B. [4, 10, 12] C. [4, 10, 0] D. Error
+
+Correct Answer: A - [4, 10] Difficulty Level: Hard Topic: Anonymous Functions (Map Function)
+
+Explanation:
+The first elements from each list are passed to the multiply function: multiply(1, 4) which gives 1 * 4 = 4.
+The second elements from each list are passed to the multiply function: multiply(2, 5) which gives 2 * 5 = 10.
+The third element in the first list (3) does not have a corresponding element in the second list, so the map() function stops here.
+Q. No. 15: What will the following code output?
+
+
+[ ]
+# A list to hold lambda functions
+funcs = []
+x = 3
+# Defining three lambda functions in a loop
+for i in range(3):
+    funcs.append(lambda: i*x)
+
+# Executing each function in funcs
+for f in funcs:
+    print(f())
+6
+6
+6
+Answer Choices: A. 0, 2, 4 B. 6, 6, 6 C. 0, 3, 6 D. 6, 12, 18
+
+Correct Answer: B - [6, 6, 6] Difficulty Level: Hard Topic: Lambda Functions
+
+At first glance, you might expect the output to be 0, 3, 6. However, due to late binding, the variable i is looked up when the lambda functions are called, not when they are defined. Since the loop completes before we call any function, i is always 2 at the time of each call.
+
+Q16: Which of the following correctly defines a function in Python? Answer Choices: A. def func(): B. function func() C. create function func D. def func
+
+Correct Answer: A - def func(): Difficulty Level: Easy
+
+Q17: What is the correct syntax for calling a function named my_func in Python? Answer Choices: A. my_func() B. call my_func C. my_func[] D. function my_func()
+
+Correct Answer: A - my_func() Difficulty Level: Easy
+
+Q18: What is the correct way to declare a global variable inside a function? Answer Choices: A. global variable_name B. global(variable_name) C. declare global variable_name D. variable_name = global
+
+Correct Answer: A - global variable_name Difficulty Level: Easy Q19: Which of the following is true about default arguments in Python functions? Answer Choices: A. They must always be the first argument. B. They must come before non-default arguments. C. They must always come after non-default arguments. D. Default arguments can be placed anywhere in the function signature.
+
+Correct Answer: C - They must always come after non-default arguments. Difficulty Level: Intermediate
+
+Q20: What will the following code output when using map with a lambda function?
+
+
+[ ]
+nums = [1, 2, 3, 4]
+result = list(map(lambda x: x * 2, nums))
+print(result)
+Answer Choices: A. [1, 2, 3, 4] B. [2, 4, 6, 8] C. [0, 2, 4, 6] D. Error
+
+Correct Answer: B - [2, 4, 6, 8] Difficulty Level: Intermediate
+
+Q21: What does the str() built-in function do in Python? Answer Choices: A. Converts a string to an integer B. Converts an object to a string C. Returns the length of a string D. Splits a string
+
+Correct Answer: B - Converts an object to a string Difficulty Level: Intermediate
+
+Q22: What will the following code print?
+
+
+[ ]
+def f(x, *args):
+    return x + sum(args)
+
+print(f(1, 2, 3, 4))
+10
+Answer Choices: A. 6 B. 10 C. 7 D. 11
+
+Correct Answer: B - 10 Difficulty Level: Difficult
+
+Q23: Consider the following code. What will the output be?
+
+
+[ ]
+x = 50
+
+def func():
+    global x
+    x = 100
+
+func()
+print(x)
+100
+Answer Choices: A. 50 B. 100 C. Error due to the use of global D. None Correct Answer: B - 100 Difficulty Level: Difficult
+
+Q24: What will happen if the following code is executed?
+
+
+[ ]
+def foo(a, b, c=5, *args, **kwargs):
+    return a + b + c + sum(args) + sum(kwargs.values())
+
+result = foo(1, 2, 3, 4, 5, x=10, y=20)
+print(result)
+45
+Answer Choices: A. 10 B. 35 C. 45 D. 70
+
+Correct Answer: C - 45 Difficulty Level: Difficult
+
+Q25: What does the dir() function return when called without arguments? Answer Choices: A. A list of the names in the current local scope B. A list of directories in the current working directory C. The documentation of all Python functions D. A list of available modules
+
+Correct Answer: A - A list of the names in the current local scope Difficulty Level: Difficult
+
+Q26: Given the following code, what will be printed?
+
+
+[ ]
+x = 25
+def outer():
+    x = 50
+    def inner():
+        nonlocal x
+        x = 75
+        print(x)
+    inner()
+    print(x)
+
+
+75
+75
+25
+Answer Choices: A. 75 50 25 B. 50 50 25 C. 75 75 25 D. 75 50 50
+
+Correct Answer: C - 75 75 25 Difficulty Level: Difficult
+
+//////////////////////////////////////////////////////////////////////////////////
+
+S07a: Classes and Objects - MCQ
+By Pramod Sharma : pramod.sharma@prasami.com
+RUP Song
+
+What does OOP stand for in Python? A. Object Orientation Process B. Object Oriented Programming C. Object Open Protocol D. Orientation of Object Programs
+
+Answer: B. Object Oriented Programming
+
+What is the main purpose of indentation in Python code? A. To make the code look neat B. To define code blocks C. To define variables D. To highlight comments
+
+Answer: B. To define code blocks
+
+What is an object in Python? A. A class definition B. A block of code C. An instance of a class D. A function within a class
+
+Answer: C. An instance of a class
+
+Customerily, how do you refer to the current object in a class? A. this B. self C. object D. current
+
+Answer: B. self Note: its a custom not a rule
+
+Which of the following statements best describes inheritance in Python? A. A class that derives properties from another class B. The act of hiding data from users C. Defining multiple methods in a class D. Changing the behavior of a method
+
+Answer: A. A class that derives properties from another class
+
+Which method in Python is called when an object is created? A. new() B. str() C. init() D. object()
+
+Answer: C. init()
+
+How is method overriding achieved in Python? A. By defining multiple methods with the same name in a class B. By defining a method in the child class with the same name as a method in the parent class C. By defining multiple constructors D. By using inheritance without defining new methods
+
+Answer: B. By defining a method in the child class with the same name as a method in the parent class
+
+Which of the following statements about data hiding in Python is true? A. Data hiding is achieved using private variables prefixed with two underscores ____ . B. Data hiding can only be done by using global variables. C. Data hiding is not possible in Python. D. Only methods can be hidden, not variables.
+
+Answer: A. Data hiding is achieved using private variables prefixed with two underscores ____ .
+
+What does polymorphism refer to in Python OOP? A. Creating classes B. Multiple inheritance C. The ability of objects to take on many forms D. Defining multiple constructors
+
+Answer: C. The ability of objects to take on many forms
+
+What happens if you try to override a private method in Python? A. The method will be successfully overridden. B. You will get an error message. C. It will create a new method without overriding the original one. D. The program will crash.
+
+Answer: C. It will create a new method without overriding the original one.
+
+In regular expressions, what does the pattern '\d+' match? A. Any sequence of non-digit characters B. Any whitespace character C. Any sequence of digits D. Any sequence of letters
+
+Answer: C. Any sequence of digits
+
+Which of the following is not a characteristic of the object-oriented environment in Linux? A. Object references are handled explicitly by users. B. Objects can interact with other objects using messages. C. Objects are deleted automatically by the garbage collector. D. Objects have attributes and behaviors.
+
+Answer: A. Object references are handled explicitly by users.
+
+Which of these is true about overloading in Python? A. You can overload constructors but not other methods. B. Overloading is not supported natively in Python. C. Python supports method overloading using special syntax. D. Overloading only works with functions, not classes.
+
+Answer: B. Overloading is not supported natively in Python.
+
+In Python, how can you define a method that handles both an int and a string argument? A. Use method overloading. B. Use a single method and check types inside it. C. Define two separate methods with the same name. D. Use a switch-case statement for each type.
+
+Answer: B. Use a single method and check types inside it.
+
+What does the 'str() ' method do in Python? A. Initializes an object B. Returns a string representation of the object C. Compares two objects D. Deletes an object from memory
+
+Answer: B. Returns a string representation of the object
+
+What is the primary difference between a class and an object in Python? A. Classes are instances of objects. B. Objects define methods, while classes define attributes. C. Classes are templates, and objects are instances of those templates. D. There is no difference between classes and objects.
+
+Answer: C. Classes are templates, and objects are instances of those templates.
+
+In which of the following scenarios would you use multiple inheritance in Python? A. When an object must be deleted B. When a class must inherit attributes and methods from more than one parent class C. When you want to hide methods from child classes D. When you need to prevent overriding
+
+Answer: B. When a class must inherit attributes and methods from more than one parent class
+
+Which of the following is true about Python classes? A. A class can have only one object. B. A class is an instance of an object. C. A class is a blueprint or template for creating objects. D. Objects and classes are identical in Python.
+
+Answer: C. A class is a blueprint or template for creating objects.
+
+What keyword is used to create an object of a class in Python? A. new B. def C. create D. No keyword is needed; just call the class name.
+
+Answer: D. No keyword is needed; just call the class name.
+
+If a class Dog inherits from class Animal, what type of relationship is this? A. Has-a relationship B. Is-a relationship C. Part-of relationship D. Uses-a relationship
+
+Answer: B. Is-a relationship
+
+In Python, how can you check if an object dog is an instance of the class Animal? A. if dog in Animal B. if isinstance(dog, Animal). C. if type(dog) == Animal D. if dog.is_instance(Animal).
+
+Answer: B. if isinstance(dog, Animal).
+
+
+[ ]
+class Animal:
+    pass
+
+class Dog(Animal):
+    pass
+
+dog = Dog()
+isinstance(dog, Animal)
+True
+
+What happens when a child class in Python overrides a method from its parent class? A. Both the parent and child methods get executed. B. The parent method gets hidden, and only the child method gets executed. C. The child method is ignored, and the parent method gets executed. D. Both methods throw an error due to conflict.
+
+Answer: B. The parent method gets hidden, and only the child method gets executed.
+
+How can you make an attribute private in Python to achieve data hiding? A. Prefix the attribute name with a double underscore __. B. Use the private keyword. C. Use the hidden keyword. D. Prefix the attribute with a single underscore _.
+
+Answer: A. Prefix the attribute name with a double underscore __.
+
+What is the primary purpose of data hiding in Python? A. To improve code readability. B. To prevent unintended access to variables or methods from outside the class. C. To shorten the code. D. To allow for method overloading.
+
+Answer: B. To prevent unintended access to variables or methods from outside the class.
+
+Which regular expression pattern matches a valid email address? A. \w+@\w+.\w+ B. @\w+.\w+ C. \d+@\d+.\d+ D. email\d+\w+
+
+Answer: A. \w+@\w+.\w+
+
+Which Python module is used for working with regular expressions? A. re B. regex C. pyregex D. string
+
+Answer: A. re
+
+////////////////////////////////////////////////////////////////////////////////////
+
+S10a: NumPy - MCQ
+By Pramod Sharma : pramod.sharma@prasami.com
+
+
+[ ]
+import numpy as np
+
+Which of the following is a key feature of NumPy? Answer Choices A. It provides support for multi-dimensional arrays. B. It is used only for 2D data. C. NumPy is primarily used for string manipulation. D. NumPy is used for creating web pages.
+
+Correct Answer: A Difficulty Level: Easy
+
+How do you import the NumPy library in Python? Answer Choices A. import numpy as np B. import np C. import numpy.lib D. from numpy import np
+
+Correct Answer: A Difficulty Level: Easy
+
+Which of the following is the correct way to create a NumPy array? Answer Choices A. np.array([1, 2, 3]) B. array([1, 2, 3]) C. np.create_array([1, 2, 3]) D. array_np([1, 2, 3])
+
+Correct Answer: A Difficulty Level: Easy
+
+What does the shape attribute of a NumPy array represent? Answer Choices A. The number of dimensions in the array B. The total number of elements in the array C. The size of each dimension of the array D. The type of data stored in the array
+
+Correct Answer: C Difficulty Level: Medium
+
+Given the following code, what is the shape of arr? python Copy code arr = np.array([[1, 2, 3], [4, 5, 6]]) Answer Choices A. (2, 3) B. (3, 2) C. 2 D. 3
+
+Correct Answer: A Difficulty Level: Easy
+
+How do you reshape a NumPy array arr from a shape of (2, 3) to (3, 2)? Answer Choices A. arr.reshape(3, 2) B. arr.resize(3, 2) C. arr.shape(3, 2) D. arr.array(3, 2)
+
+Correct Answer: A Difficulty Level: Medium
+
+Which of the following functions is used to create an array filled with zeros? Answer Choices A. np.zeros() B. np.ones() C. np.empty() D. np.fill()
+
+Correct Answer: A Difficulty Level: Easy
+
+How do you perform element-wise addition of two NumPy arrays a and b? Answer Choices A. np.add(a, b) B. np.sum(a, b) C. a + b D. Both A and C
+
+Correct Answer: D Difficulty Level: Easy
+
+What will be the result of the following operation?
+
+
+[ ]
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+print(a * b)
+Answer Choices A. array([4, 10, 18]) B. array([5, 7, 9]) C. array([1, 4, 9]) D. array([24, 120, 360])
+
+Correct Answer: A Difficulty Level: Medium
+
+How can you access the element at row 2, column 3 in a 2D NumPy array arr? Answer Choices A. arr[2, 3] B. arr[1, 2] C. arr[2][3] D. Both A and C
+
+Correct Answer: D Difficulty Level: Medium
+
+What does the following code output?
+
+
+[ ]
+arr = np.array([10, 20, 30, 40, 50])
+print(arr[1:4])
+# Answer Choices
+# A. [20, 30, 40]
+# B. [10, 20, 30]
+# C. [20, 30, 40, 50]
+# D. [10, 30, 50]
+Correct Answer: A Difficulty Level: Easy
+
+Which of the following statements correctly slices the first two columns of a 2D NumPy array arr? Answer Choices A. arr[:, :2] B. arr[0:2, :] C. arr[:, 2] D. arr[:2, :0]
+
+
+[ ]
+A = np.arange (15)
+A = A.reshape(3,5)
+A[:, :2]
+array([[ 0,  1],
+       [ 5,  6],
+       [10, 11]])
+Correct Answer: A Difficulty Level: Medium
+
+How do you generate a NumPy array of 5 random values between 0 and 1? Answer Choices A. np.random.rand(5) B. np.random.random(5) C. np.random.random_sample(5) D. All of the above
+
+Correct Answer: D Difficulty Level: Medium
+
+What function is used to calculate the mean of a NumPy array arr? Answer Choices A. np.mean(arr) B. arr.mean() C. np.average(arr) D. All of the above
+
+Correct Answer: D Difficulty Level: Easy
+
+What is the result of the following operation?
+
+
+[ ]
+arr = np.array([4, 9, 16])
+np.sqrt(arr)
+# Answer Choices
+# A. array([2, 3, 4])
+# B. array([2., 3., 4.])
+# C. array([16, 81, 256])
+# D. array([4, 9, 16])
+
+Correct Answer: B Difficulty Level: Easy
+
+
+
+//////////////////////////////////////////////////////////////////////////////////
+
+S05a: Function and Methods - MCQ
+Function and Methods
+Defining a function
+Calling a function
+Types of functions
+Function Arguments
+Anonymous functions(Lambda function, Map function)
+Global and local variables
+Using Optional and Named Arguments
+Using type, str, dir, and Other Built-In Functions
+By Pramod Sharma : pramod.sharma@prasami.com
+
+Q. No. 1: Which of the following is the correct syntax for defining a function in Python? Answer Choices: A. def function_name: B. function function_name(): C. def function_name(): D. define function_name():
+
+Correct Answer: C - def function_name(): Difficulty Level: Easy Topic: Defining a Function
+
+Q. No. 2: What is the output of the following code?
+
+
+[ ]
+def greet():
+    return "Hello"
+print(greet())
+Answer Choices: A. "greet" B. "Hello" C. None D. Error
+
+Correct Answer: B - "Hello" Difficulty Level: Easy Topic: Calling a Function
+
+Q. No. 3: Which of the following is a built-in function in Python? Answer Choices: A. str() B. dir() C. type() D. All of the above
+
+Correct Answer: D - All of the above Difficulty Level: Easy Topic: Built-In Functions
+
+Q. No. 4: Which of the following correctly defines a lambda function? Answer Choices: A. lambda x: x + 2 B. def lambda x: x + 2 C. lambda x = x + 2 D. anonymous x: x + 2
+
+Correct Answer: A - lambda x: x + 2 Difficulty Level: Easy Topic: Anonymous Functions
+
+Q. No. 5: What will the following code output?
+
+
+[ ]
+x = 10
+def test():
+    global x
+    x = 5
+test()
+print(x)
+Answer Choices: A. 10 B. 5 C. None D. Error
+
+Correct Answer: B - 5 Difficulty Level: Easy Topic: Global and Local Variables
+
+Q. No. 6: Which of the following is true about default arguments in Python functions? Answer Choices: A. Default arguments must be placed before non-default arguments. B. Default arguments can be placed in any order. C. Default arguments must be placed after non-default arguments. D. Default arguments are not allowed in Python.
+
+Correct Answer: C - Default arguments must be placed after non-default arguments. Difficulty Level: Medium Topic: Function Arguments
+
+Q. No. 7: What is the output of the following code?
+
+
+[ ]
+def add(a, b=5):
+    return a + b
+print(add(10))
+Answer Choices: A. 10 B. 15 C. 5 D. Error Correct Answer: B - 15 Difficulty Level: Medium Topic: Using Optional and Named Arguments
+
+Q. No. 8: What will be the output of the following code?
+
+
+[ ]
+def func(x, y=10):
+    return x * y
+print(func(2, 3))
+print(func(2))
+Answer Choices: A. 6 and 20 B. 6 and 10 C. Error D. 6 and 30
+
+Correct Answer: A - 6 and 20 Difficulty Level: Medium Topic: Function Arguments
+
+Q. No. 9: Which of the following statements is correct regarding the map() function in Python? Answer Choices: A. map() applies a function to all items in an iterable. B. map() is used only for filtering elements. C. map() returns a list directly in Python 3. D. map() modifies the input iterable in place.
+
+Correct Answer: A - map() applies a function to all items in an iterable. Difficulty Level: Medium Topic: Anonymous Functions (Map Function)
+
+Q. No. 10: What does the following code output?
+
+
+[ ]
+def outer():
+    x = 10
+    def inner():
+        x = 20
+    inner()
+    return x
+print(outer())
+Answer Choices: A. 10 B. 20 C. None D. Error
+
+Correct Answer: A - 10 Difficulty Level: Medium Topic: Local Variables
+
+Additiona Explanation
+
+[ ]
+def outer():
+    x = 10
+    def inner():
+        nonlocal x
+        x = 20
+        print("Replying from Inner x:", x)  # This will print 20
+    return inner  # Return the inner function
+
+# Call outer to get access to inner
+inner_func = outer()
+print (outer)
+print (outer())
+inner_func()  # Now call inner from main
+Q. No. 11: Which of the following is true regarding anonymous functions (lambda) in Python? Answer Choices: A. Lambda functions can only have one expression. B. Lambda functions can have multiple statements. C. Lambda functions must always have a return statement. D. Lambda functions cannot accept multiple arguments.
+
+Correct Answer: A - Lambda functions can only have one expression. Difficulty Level: Hard Topic: Anonymous Functions (Lambda)
+
+Q. No. 12: What will the following code output?
+
+
+[ ]
+x = 50
+def func():
+    global x
+    x = 25
+    def inner():
+        x = 10
+    inner()
+func()
+print(x)
+Answer Choices: A. 50 B. 25 C. 10 D. Error
+
+Correct Answer: B - 25 Difficulty Level: Hard Topic: Global and Local Variables
+
+Q. No. 13: What will be the output of the following code?
+
+
+[ ]
+def func(a, *args, **kwargs):
+    print(a, args, kwargs)
+func(1, 2, 3, x=10, y=20)
+Answer Choices: A. 1 (2, 3) {'x': 10, 'y': 20} B. 1 (2) {'x': 10, 'y': 20} C. 1 [2, 3] {} D. Error
+
+Correct Answer: A - 1 (2, 3) {'x': 10, 'y': 20} Difficulty Level: Hard Topic: Function Arguments
+
+Q. No. 14: What will the following code output?
+
+
+[ ]
+def multiply(a, b):
+    return a * b
+x = map(multiply, [1, 2, 3], [4, 5])
+print(list(x))
+[4, 10]
+Answer Choices: A. [4, 10] B. [4, 10, 12] C. [4, 10, 0] D. Error
+
+Correct Answer: A - [4, 10] Difficulty Level: Hard Topic: Anonymous Functions (Map Function)
+
+Explanation:
+The first elements from each list are passed to the multiply function: multiply(1, 4) which gives 1 * 4 = 4.
+The second elements from each list are passed to the multiply function: multiply(2, 5) which gives 2 * 5 = 10.
+The third element in the first list (3) does not have a corresponding element in the second list, so the map() function stops here.
+Q. No. 15: What will the following code output?
+
+
+[ ]
+# A list to hold lambda functions
+funcs = []
+x = 3
+# Defining three lambda functions in a loop
+for i in range(3):
+    funcs.append(lambda: i*x)
+
+# Executing each function in funcs
+for f in funcs:
+    print(f())
+6
+6
+6
+Answer Choices: A. 0, 2, 4 B. 6, 6, 6 C. 0, 3, 6 D. 6, 12, 18
+
+Correct Answer: B - [6, 6, 6] Difficulty Level: Hard Topic: Lambda Functions
+
+At first glance, you might expect the output to be 0, 3, 6. However, due to late binding, the variable i is looked up when the lambda functions are called, not when they are defined. Since the loop completes before we call any function, i is always 2 at the time of each call.
+
+Q17: What is the correct syntax for calling a function named my_func in Python? Answer Choices: A. my_func() B. call my_func C. my_func[] D. function my_func()
+
+Correct Answer: A - my_func() Difficulty Level: Easy
+
+Q18: What is the correct way to declare a global variable inside a function? Answer Choices: A. global variable_name B. global(variable_name) C. declare global variable_name D. variable_name = global
+
+Correct Answer: A - global variable_name Difficulty Level: Easy
+
+Q20: What will the following code output when using map with a lambda function?
+
+
+[ ]
+nums = [1, 2, 3, 4]
+result = list(map(lambda x: x * 2, nums))
+print(result)
+Answer Choices: A. [1, 2, 3, 4] B. [2, 4, 6, 8] C. [0, 2, 4, 6] D. Error
+
+Correct Answer: B - [2, 4, 6, 8] Difficulty Level: Intermediate
+
+Q21: What does the str() built-in function do in Python? Answer Choices: A. Converts a string to an integer B. Converts an object to a string C. Returns the length of a string D. Splits a string
+
+Correct Answer: B - Converts an object to a string Difficulty Level: Intermediate
+
+Q22: What will the following code print?
+
+
+[ ]
+def f(x, *args):
+    return x + sum(args)
+
+print(f(1, 2, 3, 4))
+10
+Answer Choices: A. 6 B. 10 C. 7 D. 11
+
+Correct Answer: B - 10 Difficulty Level: Difficult
+
+Q23: Consider the following code. What will the output be?
+
+
+[ ]
+x = 50
+
+def func():
+    global x
+    x = 100
+
+func()
+print(x)
+100
+Answer Choices: A. 50 B. 100 C. Error due to the use of global D. None Correct Answer: B - 100 Difficulty Level: Difficult
+
+Q24: What will happen if the following code is executed?
+
+
+[ ]
+def foo(a, b, c=5, *args, **kwargs):
+    return a + b + c + sum(args) + sum(kwargs.values())
+
+result = foo(1, 2, 3, 4, 5, x=10, y=20)
+print(result)
+45
+Answer Choices: A. 10 B. 35 C. 45 D. 70
+
+Correct Answer: C - 45 Difficulty Level: Difficult
+
+Q25: What does the dir() function return when called without arguments? Answer Choices: A. A list of the names in the current local scope B. A list of directories in the current working directory C. The documentation of all Python functions D. A list of available modules
+
+Correct Answer: A - A list of the names in the current local scope Difficulty Level: Difficult
+
+////////////////////////////////////////////////////////////////////////////////////
+
+
+S02: String - MCQ
+Strings and Tuples
+Accessing Strings
+Formatting Strings
+String slices
+By Pramod Sharma : pramod.sharma@prasami.com
+
+Q. No. 1: How do you access the first character of a string s in Python? Answer Choices A. s(0) B. s[0] C. s.charAt(0) D. s{0}
+
+Correct Answer: B - s[0] Difficulty Level: Easy
+
+Q. No. 2: What is the output of the following code?
+
+
+[ ]
+s = "Hello, World!"
+print(s[-1])
+Answer Choices A. ! B. d C. H D. Error
+
+
+[ ]
+"Hello".join(['', "World"])
+'HelloWorld'
+Correct Answer: A - ! Difficulty Level: Medium
+
+Q. No. 3: Which of the following is a correct way to concatenate two strings in Python? Answer Choices A. "Hello" + "World" B. "Hello".concat("World") C. "Hello".join("World") D. concatenate("Hello", "World")
+
+Correct Answer: A - "Hello" + "World" Difficulty Level: Easy
+
+Q. No. 4: What is the result of the following operation?
+
+"abc" * 3 Answer Choices A. abcabcabc B. abc*3 C. Error D. abcabc
+
+Correct Answer: A - abcabcabc Difficulty Level: Easy
+
+Q. No. 5: Which of the following code snippets assigns multiple values at once? Answer Choices A. x, y = 10, 20 B. x y = 10 20 C. assign(x=10, y=20) D. x := 10; y := 20
+
+Correct Answer: A - x, y = 10, 20 Difficulty Level: Medium
+
+Q. No. 6: How do you format a string to include a variable in Python? Answer Choices A. f"Hello, {name}" B. "Hello, {}".format(name) C. print("Hello, " + name) D. All of the above
+
+Correct Answer: D - All of the above Difficulty Level: Easy
+
+Q. No. 7: What does the slice s[1:4] return, if s = "Python"? Answer Choices A. "yth" B. "Pyt" C. "tho" D. "yt"
+
+Correct Answer: A - "yth" Difficulty Level: Medium
+
+Q. No. 8: What is the output of the following code?
+
+
+[ ]
+s = "abcdef"
+print(s[3:])
+def
+Answer Choices A. abc B. bcd C. Error D. def
+
+Correct Answer: A - abc Difficulty Level: Easy
+
+Q. No. 9: Which of the following methods converts all characters of a string to uppercase? Answer Choices A. upper() B. toUpperCase() C. capitalize() D. uppercase()
+
+
+[ ]
+'pks is my name'.title()
+'Pks Is My Name'
+Correct Answer: A - upper() Difficulty Level: Easy
+
+Q. No. 10: What does s[::-1] do to the string s? Answer Choices A. Reverses the string B. Converts the string to lowercase C. Returns a substring D. Splits the string by characters
+
+Correct Answer: A - Reverses the string Difficulty Level: Medium
+
+Double-click (or enter) to edit
+
+////////////////////////////////////////////////////////////////////////////////////
+
+S13a: Web Scrapping - MCQ
+By Pramod Sharma : pramod.sharma@prasami.com
+
+Web Scraping
+Working with beautiful soup
+Web Scrapping
+
+[ ]
+###------------------
+### Import Statements
+###------------------
+import os
+import pandas as pd
+import numpy as np
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+import requests
+from bs4 import BeautifulSoup  # Import BeautifulSoup for parsing HTML
+### end of import statements
+Q. No. 1:
+What is Beautiful Soup primarily used for? Answer Choices A. Data visualization B. Web scraping C. Machine learning D. Database management
+
+Correct Answer: B Difficulty Level: Easy
+
+Q. No. 2:
+How do you install Beautiful Soup using pip? Answer Choices A. pip install beautifulsoup4 B. pip install bs4 C. pip install soup D. pip install b_soup
+
+Correct Answer: B Difficulty Level: Easy
+
+Q. No. 3:
+Which of the following methods is used to find the first occurrence of a tag in a Beautiful Soup object? Answer Choices A. soup.find_all() B. soup.find() C. soup.search() D. soup.get()
+
+Correct Answer: B Difficulty Level: Medium
+
+Q. No. 4:
+What is the purpose of the lxml parser in Beautiful Soup? Answer Choices A. To parse JSON data B. To extract HTML and XML more efficiently C. To handle Python objects D. To format data for machine learning
+
+Correct Answer: B Difficulty Level: Medium
+
+Q. No. 5:
+Which method would you use to find all tags in a Beautiful Soup object? Answer Choices A. soup.select('a') B. soup.find_all('a') C. soup.search_all('a') D. soup.get_all('a')
+
+Correct Answer: B Difficulty Level: Easy
+
+Q. No. 6:
+What is web scraping? Answer Choices A. Extracting data from websites automatically B. Copying web pages for offline use C. Downloading files from the internet D. Analyzing website performance
+
+Correct Answer: A Difficulty Level: Easy
+
+Q. No. 7:
+Which library in Python is commonly used for making HTTP requests to websites for web scraping? Answer Choices A. os B. requests C. numpy D. flask
+
+Correct Answer: B Difficulty Level: Easy
+
+Q. No. 8:
+How can you avoid getting blocked while scraping a website? Answer Choices A. Use proper request headers and time delays between requests B. Scrape the website as fast as possible C. Always scrape from the homepage D. Avoid using proxies or user agents
+
+Correct Answer: A Difficulty Level: Medium
+
+Q. No. 9:
+Which HTTP status code indicates that access to a web page is forbidden? Answer Choices A. 200 B. 404 C. 403 D. 500
+
+Correct Answer: C Difficulty Level: Medium
+
+Q. No. 10:
+What is the primary use of the robots.txt file on a website? Answer Choices A. To block search engines from indexing the site B. To guide search engines on how to index the site C. To specify which parts of the site can be scraped D. To restrict users from accessing the site
+
+
+[ ]
+Correct Answer: C
+Difficulty Level: Medium
+
+[ ]
+
+////////////////////////////////////////////////////////////////////////////////////
+
+
+S17: Statistics - MCQ
+Joint, Conditional, and Marginal Probability
+Bayes' Theorem
+Random Variables
+Probability Distributions and Data
+Continuous and Discrete Distributions (Normal, Binomial, Poisson)
+Central Limit Theorem
+Sampling and Estimation
+Inferential Statistics
+By Pramod Sharma : pramod.sharma@prasami.com
+
+Topic: Probability and Distribution Functions
+What is a probability distribution function?
+
+A. A function that assigns a probability to each possible outcome of a random variable
+
+B. A function used to generate random numbers
+
+C. A function that measures central tendency
+
+D. A function that calculates variance
+
+Correct Answer: A. A function that assigns a probability to each possible outcome of a random variable
+
+Difficulty Level: Easy
+
+Which of the following is NOT a characteristic of a probability distribution function?
+
+A. The probabilities must sum to 1
+
+B. Each probability is non-negative
+
+C. It only applies to discrete random variables
+
+D. It describes the likelihood of outcomes
+
+Correct Answer: C. It only applies to discrete random variables Difficulty Level: Medium
+
+Topic: Joint, Conditional, and Marginal Probability
+
+What does joint probability represent? Answer Choices A. The probability of a single event occurring B. The probability of two or more events occurring together C. The probability of an event given that another event has occurred D. The difference between two probabilities
+
+Correct Answer: B. The probability of two or more events occurring together Difficulty Level: Easy
+
+How is conditional probability defined? Answer Choices A. P(A ∩ B) B. P(A | B) = P(A ∩ B) / P(B) C. P(A) + P(B) D. P(A) / P(B)
+
+Correct Answer: B. P(A | B) = P(A ∩ B) / P(B) Difficulty Level: Medium
+
+Topic: Bayes' Theorem
+What does Bayes’ Theorem help calculate? Answer Choices A. The likelihood of independent events B. The conditional probability of an event, based on prior knowledge C. The probability of mutually exclusive events D. The marginal probability of a random variable
+
+Correct Answer: B. The conditional probability of an event, based on prior knowledge Difficulty Level: Medium
+
+Which of the following represents Bayes' Theorem? Answer Choices A. P(A ∩ B) = P(A) * P(B) B. P(A | B) = P(B | A) * P(A) / P(B) C. P(A ∪ B) = P(A) + P(B) D. P(A) = P(B) / P(A | B)
+
+Correct Answer: B. P(A | B) = P(B | A) * P(A) / P(B) Difficulty Level: Hard
+
+Topic: Random Variable
+What is a random variable? Answer Choices A. A variable whose value is subject to chance B. A variable that has no relationship to probability C. A fixed numerical outcome D. A variable that always follows a normal distribution
+
+Correct Answer: A. A variable whose value is subject to chance Difficulty Level: Easy
+
+Which of the following best describes a continuous random variable? Answer Choices A. A variable that can take any value within a specified range B. A variable that only takes on whole numbers C. A variable with a fixed set of outcomes D. A variable that is always independent
+
+Correct Answer: A. A variable that can take any value within a specified range Difficulty Level: Medium
+
+Topic: Probability Distribution and Data
+What does a probability distribution describe? Answer Choices A. The variance of a dataset B. The possible outcomes of a random variable and their probabilities C. The average of a dataset D. The spread of data around the mean
+
+Correct Answer: B. The possible outcomes of a random variable and their probabilities Difficulty Level: Easy
+
+Which of the following distributions is used to model binary outcomes? Answer Choices A. Normal distribution B. Binomial distribution C. Poisson distribution D. Uniform distribution
+
+Correct Answer: B. Binomial distribution Difficulty Level: Medium
+
+Topic: Continuous and Discrete Distributions (Normal, Binomial, and Poisson)
+Which of the following distributions is continuous? Answer Choices A. Binomial distribution B. Normal distribution C. Poisson distribution D. Bernoulli distribution
+
+Correct Answer: B. Normal distribution Difficulty Level: Easy
+
+Which distribution is used to model the number of events occurring in a fixed interval of time? Answer Choices A. Binomial distribution B. Normal distribution C. Poisson distribution D. Geometric distribution
+
+Correct Answer: C. Poisson distribution Difficulty Level: Medium
+
+Topic: Central Limit Theorem
+What does the Central Limit Theorem state? Answer Choices A. The sum of a large number of independent random variables is approximately normally distributed B. The mean of any dataset is always normally distributed C. Any random variable will follow a Poisson distribution D. The probability of extreme events is always negligible
+
+Correct Answer: A. The sum of a large number of independent random variables is approximately normally distributed Difficulty Level: Medium
+
+Why is the Central Limit Theorem important in statistics? Answer Choices A. It allows us to make inferences about population parameters based on sample data B. It shows that small samples will always be normally distributed C. It proves that all data sets are normal D. It helps estimate probabilities of rare events
+
+Correct Answer: A. It allows us to make inferences about population parameters based on sample data Difficulty Level: Hard
+
+Topic: Sampling and Estimation
+What is the main goal of sampling in statistics? Answer Choices A. To gather data from the entire population B. To make inferences about a population based on a subset of data C. To calculate probabilities for continuous random variables D. To visualize the spread of data
+
+Correct Answer: B. To make inferences about a population based on a subset of data Difficulty Level: Easy
+
+Which of the following is a common method of estimating population parameters? Answer Choices A. Random walk B. Confidence intervals C. Markov chains D. Gradient descent
+
+Correct Answer: B. Confidence intervals Difficulty Level: Medium
+
+Topic: Inferential Statistics
+What is the main purpose of inferential statistics? Answer Choices A. To describe and summarize data B. To infer conclusions about a population based on sample data C. To collect raw data D. To create visualizations
+
+Correct Answer: B. To infer conclusions about a population based on sample data Difficulty Level: Easy
+
+Which of the following is NOT typically involved in inferential statistics? Answer Choices A. Hypothesis testing B. Estimating population parameters C. Descriptive analysis D. Constructing confidence intervals
+
+Correct Answer: C. Descriptive analysis Difficulty Level: Medium
+
+
+////////////////////////////////////////////////////////////////////////////////////
+
+Deep Neural Network
+S18: Final - MCQ
+Concepts of Correlation
+Covariance
+Outliers
+Regression- Linear & Logistics
+Random Processes
+By Pramod Sharma : pramod.sharma@prasami.com
+
+Topic: Concepts of Correlation
+Which of the following values of correlation coefficient indicates the strongest negative relationship between two variables? Answer Choices A. 0 B. 1 C. -1 D. 0.5
+
+Correct Answer: C. -1 Difficulty Level: Easy
+
+What does a correlation coefficient of 0 indicate? Answer Choices A. A perfect positive relationship B. No relationship between the variables C. A perfect negative relationship D. A moderate negative relationship
+
+Correct Answer: B. No relationship between the variables Difficulty Level: Medium
+
+Topic: Covariance
+What does a positive covariance between two variables indicate? Answer Choices A. The variables move in the same direction B. The variables move in opposite directions C. The variables are independent D. The variables have no relationship
+
+Correct Answer: A. The variables move in the same direction Difficulty Level: Easy
+
+Which of the following best describes covariance? Answer Choices A. The measure of how much two random variables change together B. The ratio of standard deviations C. The square root of variance D. The measure of the spread of data
+
+Correct Answer: A. The measure of how much two random variables change together Difficulty Level: Medium
+
+Topic: Outliers
+Which of the following is a potential effect of outliers on a dataset? Answer Choices A. It decreases the mean of the dataset B. It has no effect on the dataset C. It can distort the mean and increase variance D. It reduces the range of the dataset
+
+Correct Answer: C. It can distort the mean and increase variance Difficulty Level: Easy
+
+Which statistical method is commonly used to detect outliers in a dataset? Answer Choices A. Z-score method B. Covariance analysis C. Correlation analysis D. Logistic regression
+
+Correct Answer: A. Z-score method Difficulty Level: Medium
+
+Topic: Regression - Linear & Logistic
+Which of the following is the primary difference between linear and logistic regression? Answer Choices A. Linear regression predicts a categorical outcome, while logistic regression predicts a continuous outcome B. Linear regression assumes a linear relationship between variables, while logistic regression models a binary outcome C. Linear regression is used for classification tasks, while logistic regression is used for regression tasks D. Linear regression is only used for small datasets
+
+Correct Answer: B. Linear regression assumes a linear relationship between variables, while logistic regression models a binary outcome Difficulty Level: Medium
+
+What does the slope of the line in a linear regression represent? Answer Choices A. The intercept of the model B. The strength of the relationship between the dependent and independent variable C. The predicted value of the dependent variable D. The residuals of the model
+
+Correct Answer: B. The strength of the relationship between the dependent and independent variable Difficulty Level: Easy
+
+Topic: Random Processes
+Which of the following best describes a random process? Answer Choices A. A deterministic process with fixed outcomes B. A sequence of random variables evolving over time C. A process that repeats itself in a cyclic manner D. A process where only one outcome is possible
+
+Correct Answer: B. A sequence of random variables evolving over time Difficulty Level: Medium
+
+In the context of random processes, what does "stationary" mean? Answer Choices A. The process has a constant mean and variance over time B. The process stops after a finite number of steps C. The process always produces the same outcome D. The process changes direction over time
+
+Correct Answer: A. The process has a constant mean and variance over time Difficulty Level: Hard
+
+
